@@ -31,10 +31,10 @@ func main() {
 
 	// Set configurations directly in code
 	cfg = Config{
-		SlackWebhookURL:   "https://hooks.slack.com/services/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",
-		TelegramBotToken:  "7578974369:AAFu7vWTQEGXeFLdszQrJctKPrSWsrvzBbM",
-		TelegramChatID:    "490557903",
-		DiscordWebhookURL: "https://discord.com/api/webhooks/1309102523545813073/Vv3oE4bdkoncxQ6NFNa8bhuEttxJ54V_sA9wclmRQAgzBgd9uZkDLlDYWHd1WAnNxg08",
+		SlackWebhookURL:   "*",
+		TelegramBotToken:  "*",
+		TelegramChatID:    "*",
+		DiscordWebhookURL: "*",
 	}
 
 	if err := rootCmd.Execute(); err != nil {
